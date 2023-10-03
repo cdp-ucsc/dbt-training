@@ -35,7 +35,5 @@ models:
   dbt_fundamentals:
     staging:
       materialized: view
-    intermediate:
-      materialized: view
     marts:
         materialized: table
