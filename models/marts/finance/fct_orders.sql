@@ -15,6 +15,7 @@ order_payments as (
     group by 1
 ),
 
+
  final as (
 
     select
