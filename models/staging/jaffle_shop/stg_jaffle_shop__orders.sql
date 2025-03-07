@@ -5,6 +5,7 @@ select
     status
 
 from {{ source('jaffle_shop', 'orders') }}
+order by 1
 
 /* raw.jaffle_shop.orders  */
 
