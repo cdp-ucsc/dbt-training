@@ -16,18 +16,39 @@ dbt Labs offers free online high-quality training that provides a hands-on exper
 - [Enroll in Fundamentals - dbt-training account](https://courses.getdbt.com/courses/fundamentals) ( see additional info below)
 
 
-Technically speaking you will have two dbt-cloud accounts. The first one that can create on your own from the link above when enrolling in the course; think of this as a view only dbt-training account. 
+Technically speaking you will have two dbt-cloud accounts. The first one that can create on your own from the link above when enrolling in the course; think of this as a view only dbt-training account.
 
 The second, will be your UCSC managed account that you will use to perform the actions described in the training materials, and any future work with CDP.  You will recieve an email invite for this; typically during an onboarding session.   While taking the class it will be necessary to use two browsers such as, **Firefox** for view only account and **Chrome** for performing the labs with your UCSC account.
 
 
-## Course Modifications
+## dbt Fundamentals Course Modifications
+
+Please read the below sections before beginning the course.
 
 The course instructs you to create your own personal GitHub repository and a trial Snowflake account. The changes outlined below will allow you to access the UCSC Snowflake account, the UCSC dbt-cloud platform and work from the UCSC CDP GitHub Organization. 
 
+### Section 3 - Set Up dbt Cloud
+The following sections **Set Up dbt Cloud for the First Time** and **Access Company's dbt Cloud Account** are related to setting up dbt infrastructure. We've set up the infrastructure for you, but this is all good information to understand, please treat these section as important but information only as no action is required on your part.
 
-### Section 3 - Set up dbt Cloud
-We've set up the infrastructure for you, but this is all good information to understand, please treat this section as important but information only as no action is required on your part.
+For the next two sections **dbt Cloud IDE Overview** and **dbt Cloud User Interface Tour**, if you would like to follow along initial configuration is required.
+<details>
+<summary>Setting up your credentials in dbt Cloud.</summary>
+<br>
+Log into [UCSC's dbt Cloud](https://cloud.getdbt.com/enterprise-login/ucsc).
+"user-settings"
+"user-credentials"
+</details>
+
+<details>
+<summary>Snowflake worksheets.</summary>
+<br>
+Log into [UCSC's Snowflake](https://app.snowflake.com/us-west-2/zna67203).
+"training-role"
+"go-to worksheet"
+"set worksheet role"
+</details>
+
+- log in and navigate to the [Worksheets](https://docs.snowflake.com/en/user-guide/ui-snowsight-worksheets-gs) section of Snowflake's cloud UI "Snowsight"
 
 ### Section 8 - Deployment
 
