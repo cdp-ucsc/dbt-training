@@ -34,21 +34,38 @@ For the next two sections **dbt Cloud IDE Overview** and **dbt Cloud User Interf
 <details>
 <summary>Setting up your credentials in dbt Cloud.</summary>
 <br>
+  
 Log into [UCSC's dbt Cloud](https://cloud.getdbt.com/enterprise-login/ucsc).
-"user-settings"
-"user-credentials"
+
+Navigate to user settings.
+
+<img width="582" alt="user-settings" src="https://github.com/user-attachments/assets/d48edd26-3f22-4f1c-9949-e1882e33ca59" />
+
+Enter credentials for the **dbt-fundamentals** project.
+
+<img width="1728" alt="user-credentials" src="https://github.com/user-attachments/assets/ea06b51c-cb06-48c6-8968-15974432afec" />
+
 </details>
 
 <details>
 <summary>Snowflake worksheets.</summary>
 <br>
-Log into [UCSC's Snowflake](https://app.snowflake.com/us-west-2/zna67203).
-"training-role"
-"go-to worksheet"
-"set worksheet role"
-</details>
 
-- log in and navigate to the [Worksheets](https://docs.snowflake.com/en/user-guide/ui-snowsight-worksheets-gs) section of Snowflake's cloud UI "Snowsight"
+Log into [UCSC's Snowflake](https://app.snowflake.com/us-west-2/zna67203).
+
+Select the **training_role**.
+
+<img width="290" alt="training-role" src="https://github.com/user-attachments/assets/5514b450-7613-45d5-91c4-a2c4f8cb0d9c" />
+
+Navigate to [Worksheets](https://docs.snowflake.com/en/user-guide/ui-snowsight-worksheets-gs).
+
+<img width="1704" alt="go-to-worksheet" src="https://github.com/user-attachments/assets/5ed6b061-e013-49d8-a4fd-3cb7cbda2050" />
+
+Select role and warehouse to execute the worksheet in.
+
+<img width="1727" alt="set-worksheet-role" src="https://github.com/user-attachments/assets/485dc752-951d-492b-98ba-5f668eb850bf" />
+
+</details>
 
 ### Section 8 - Deployment
 
