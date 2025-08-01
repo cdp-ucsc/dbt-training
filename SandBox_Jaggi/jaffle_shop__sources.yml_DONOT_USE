@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    database: raw
+    schema: jaffle_shop
+    freshness: # make this a little more strict
+      warn_after: { count: 24, period: hour }
+      error_after: { count: 1000, period: day } #Jaggi > increased from 12 to 9200 #
+    loaded_at_field: _etl_loaded_at
+
+    tables:
+      - name: customers
+        freshness: null #Jaggi, changed the freshness to null for customers model.
+      - name: orders
